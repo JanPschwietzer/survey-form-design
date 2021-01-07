@@ -1,0 +1,2 @@
+Hello, I have made this little survey base without functionality.
+I just wanted to play around with css a little bit and improve my workflow when writing html code so its easier to design it afterwards with css.
