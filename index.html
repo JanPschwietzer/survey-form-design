@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FCC: Survey Form</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <h2>Thank you for the time to help us improve the platform</h2>
+        </header>
+        <main>
+            <form class="form">
+                <p>Name</p>
+                <input class="form" type="text" placeholder="Enter your name" id="name" required>
+                <p>Email</p>
+                <input class="form" type="text" placeholder="Enter your email" id="email" required>
+                <p>Age (optional)</p>
+                <input class="form" type="text" placeholder="Age" id="age">
+                <p>Which option best describes your current role?</p>
+                <select class="form" id="dropdown" name="role" required>
+                    <option value="Student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="prefer-not-to-say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="radios">
+                    <label><input type="radio" class="form" value="yes">Definitely</label>
+                    <label><input type="radio" class="form" value="maybe">Maybe</label>
+                    <label><input type="radio" class="form" value="unsure">Not sure</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
